@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Gallery-Friends-Backend
+
+This is the backend for the gallery-friends app. It contains 10 service endpoints and using mongoDB Atlas to persist user data. It allows for the persistence of login credentials that are encrypted in the mongoDB database, images that users post, comments, likes, and followers and followees of users. It's just a great time to get together with family and friends and just post whatever you like and like and comment on each others' posts.
 
 ## Getting Started
 
@@ -12,11 +14,7 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Open [http://localhost:8080](http://localhost:8080) with your browser to see the result.
 
 ## Learn More
 
@@ -29,6 +27,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This repo is deployed on vercel, as well as the frontend for this app to make it a full-stack app. 
