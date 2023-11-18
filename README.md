@@ -1,4 +1,4 @@
-# Gallery-Friends-Backend
+# Gallery Friends Backend
 
 This is the backend for the gallery-friends app. It contains 10 service endpoints and using mongoDB Atlas to persist user data. It allows for the persistence of login credentials that are encrypted in the mongoDB database, images that users post, comments, likes, and followers and followees of users. It's just a great time to get together with family and friends and just post whatever you like and like and comment on each others' posts.
 
